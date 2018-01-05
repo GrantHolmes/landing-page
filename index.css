@@ -1,1 +1,60 @@
-g
+html{
+font-family: georgia;
+color: white;
+}
+.header{
+padding: 45px;
+}
+.logo{
+display: inline-block;
+margin-left: 50px;
+}
+.home{
+display: inline-block;
+float: right;
+margin-right: 50px;
+}
+.about{
+display: inline-block;
+float: right;
+margin-right: 50px;
+}
+.contact{
+display: inline-block;
+float: right;
+margin-right: 50px;
+}
+.text1{
+text-align: center;
+font-size: 30px;
+font-weight: bold;
+}
+.text2{
+  text-align: center;
+  font-size: 20px;
+}
+body{
+background-image: url('https://images.unsplash.com/photo-1496243975092-6ec259c776e2?dpr=1&auto=format&fit=crop&w=1000&q=80&cs=tinysrgb');
+background-size: cover;
+}
+a{
+color: white;
+text-decoration: none;
+}
+.button {
+padding : 15px 30px 14px 30px;
+margin  : 5px auto;
+display : block;
+width   : 100px;
+background-color:#071a52;
+text-align: center;
+border: none;
+ border-radius: 15px;
+ box-shadow: 0 5px #999;
+}
+.button:active {
+  background-color: #000249;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.button:hover {background-color: #000249}
